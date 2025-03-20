@@ -6,5 +6,6 @@ echo "Yolov5 repo cloned successfully"
 echo "_________________________________________________________________________________________"
 echo "Downloading Custom Dataset"
 mkdir dataset && cd dataset
-curl -L "https://app.roboflow.com/ds/ZrlRWaSDsa?key=Wmv1rNe9pN" > roboflow.zip; unzip roboflow.zip; rm roboflow.zip
+mkdir V8 && cd V8
+curl -L "https://app.roboflow.com/ds/txwm2CffMm?key=rZzaBpJ02m" > roboflow.zip; unzip roboflow.zip; rm roboflow.zip
 echo "Dataset downloaded successfully"
