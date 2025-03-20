@@ -7,3 +7,4 @@ python3 train.py --data dataset/data.yaml --cfg yolov5s.yaml --weights '' --batc
 to train a segment model use this command: 
 python3 segment/train.py --data data.yaml --weights yolov5s-seg.pt --img 640 --batch-size 8
 
+test
