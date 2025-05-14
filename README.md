@@ -15,7 +15,10 @@ To create a good dataset i would higly recomend using this guide
 https://www.ejtech.io/learn/eight-labeling-tips
 
 ### **Train an Object Detection Model**
+
+#### **Make sure your dataset is using the yolov5 pytorch format**
 To Train an Object Detection Model navigate to the dataset dir and in the terminal paste the download code for your dataset using roboflow.
+
 
 (make sure to change the path of your train, valid and test paths to the correct path)
 
