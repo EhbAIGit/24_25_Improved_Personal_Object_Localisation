@@ -9,10 +9,20 @@ open a terminal and run the following command
 ```bash
 bash setup.sh
 ```
+
+### **Ceating a dataset**
+To create a good dataset i would higly recomend using this guide
+https://www.ejtech.io/learn/eight-labeling-tips
+
 ### **Train an Object Detection Model**
-To Train an Object Detection Model navigate to the dataset dir and in the terminal paste the download code for your dataset.
+To Train an Object Detection Model navigate to the dataset dir and in the terminal paste the download code for your dataset using roboflow.
 
 (make sure to change the path of your train, valid and test paths to the correct path)
+
+if you are using roboflow use the add_RF_dataset bash file for a easy and fast setup
+```bash
+bash add_RF_dataset.sh
+```
 
 Then run the following command.
 ```bash

@@ -4,6 +4,10 @@ cd yolov5
 pip install -r requirements.txt
 echo "Yolov5 repo cloned successfully"
 echo "_________________________________________________________________________________________"
-echo "Downloading Custom Dataset"
-mkdir dataset && cd dataset
+echo "creating a dataset directory"
+mkdir dataset
+echo "dataset directory created"
+echo "_________________________________________________________________________________________"
+echo "setup complete!"
+echo "_________________________________________________________________________________________"
 
