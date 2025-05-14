@@ -3,8 +3,9 @@
 This repository provides tools for training object detection and segmentation models using YOLOv5.
 
 ---
+## **yolov5 model object detection on PC**
 
-## **Setup**
+### **Setup**
 open a terminal and run the following command
 ```bash
 bash setup.sh
@@ -43,3 +44,9 @@ example:
 python3 detect.py --weights runs/train/exp6/weights/best.pt --source 0  --img 640
 ```
 (this will use the webcam for the detection)
+
+## **Raspberry PI object detection using Google Coral TPU**
+
+### **Setup**
+
+the full official tutorial from coral is here if you wish to learn more: https://coral.ai/docs/edgetpu/retrain-classification-ondevice/#retrain-a-model-on-device-with-our-sample
