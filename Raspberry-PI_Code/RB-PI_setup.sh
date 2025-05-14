@@ -78,4 +78,7 @@ EOF
 chmod +x $DEMO_DIR/webcam_detect.py
 
 echo "Python webcam detection script placed in $DEMO_DIR"
+echo "_____________________________"
+echo "your project directory is $DEMO_DIR"
+echo "_____________________________"
 echo "Download complete!"
