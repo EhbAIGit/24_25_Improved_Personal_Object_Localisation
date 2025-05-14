@@ -50,3 +50,8 @@ python3 detect.py --weights runs/train/exp6/weights/best.pt --source 0  --img 64
 ### **Setup**
 
 the full official tutorial from coral is here if you wish to learn more: https://coral.ai/docs/edgetpu/retrain-classification-ondevice/#retrain-a-model-on-device-with-our-sample
+
+this is a short overview of the codes that are needed in to use the model
+
+
+
